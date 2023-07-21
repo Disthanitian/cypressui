@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('5. Test Siblings', ()=>{
+describe('3. Test Next', ()=>{
   beforeEach(() => 
       cy.visit('localhost:3000/query/pointer/next')
   )
